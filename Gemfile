@@ -10,6 +10,7 @@ gem 'haml-rails'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem "selectize-rails"
 
 
 group :development, :test do

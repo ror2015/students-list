@@ -125,6 +125,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
+    selectize-rails (0.12.1)
     sexp_processor (4.5.1)
     simple_form (3.1.0)
       actionpack (~> 4.0)
@@ -165,6 +166,7 @@ DEPENDENCIES
   rails (= 4.2.1)
   rails_12factor
   sass-rails (~> 5.0)
+  selectize-rails
   simple_form
   spring
   sqlite3

@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require selectize
+ *= require selectize.default
  *= require_self
  */
