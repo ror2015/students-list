@@ -11,7 +11,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem "selectize-rails"
-
+gem 'rjv'
 
 group :development, :test do
   gem 'byebug'

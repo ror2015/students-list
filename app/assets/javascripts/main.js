@@ -5,6 +5,8 @@ $(document).ready(function(){
 
   $('#calendar').fullCalendar({
     // put your options and callbacks here
-    lang: 'pl'
+    lang: 'pl',
+    editable: true,
+    events: app.vars.events
   });
 });
