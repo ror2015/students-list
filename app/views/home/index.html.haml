@@ -1,6 +1,6 @@
 - set_var 'events', @events.map{|e| {title: e.title, start: e.starts_at, end: e.ends_at, url: event_path(e), color: '#f00'}}
 
-= select_tag :student_name, options_for_select(Student.all)
+= select_tag :student_name
 %h2.greeting Czeszcz
 %h2.greeting#en Hi
 %h2 Kurczak

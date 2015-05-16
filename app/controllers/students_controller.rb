@@ -3,7 +3,13 @@ class StudentsController < ApplicationController
 
   # GET /students
   def index
-    @students = Student.all
+    full_name = params[:full_name] || ""
+    @students = Student.where("full_name LIKE ?", "#{full_name}%").take(10)
+
+    respond_to do |format|
+      format.json { render json: @students.to_json }
+      format.html
+    end
   end
 
   # GET /students/1
